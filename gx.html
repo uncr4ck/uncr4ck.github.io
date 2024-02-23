@@ -1,0 +1,95 @@
+<!DOCTYPE html>  
+<html lang="en">  
+<head>  
+<meta charset="UTF-8">  
+<meta name="viewport" content="width=device-width, initial-scale=1.0">  
+<title>NeverLaw更新日志</title>  
+<style>  
+  body {  
+    font-family: 'Courier New', Courier, monospace;  
+    background-color: #f4f4f4;  
+    color: #333;  
+    padding: 20px;  
+  }  
+  h1 {  
+    text-align: center;  
+    color: #666;  
+  }  
+  .log-entry {  
+    margin-bottom: 30px;  
+    padding: 10px;  
+    border: 1px solid #ddd;  
+    background-color: #fff;  
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);  
+  }  
+  .log-entry h2 {  
+    color: #444;  
+    margin-top: 0;  
+  }  
+  .log-entry p {  
+    margin: 0;  
+  }  
+  .date {  
+    color: #777;  
+    font-style: italic;  
+  }  
+  .category {  
+    display: inline-block;  
+    padding: 2px 5px;  
+    border-radius: 3px;  
+    margin-right: 5px;  
+  }  
+  .fix {  
+    background-color: #f2dede; /* 红色背景 */  
+    color: #a94442;  
+  }  
+  .append {  
+    background-color: #d9edf7; /* 蓝色背景 */  
+    color: #31708f;  
+  }  
+  .edit {  
+    background-color: #fcf8e3; /* 黄色背景 */  
+    color: #8a6d3b;  
+  }  
+  .command {  
+    margin-top: 10px;  
+  }  
+</style>  
+</head>  
+<body>  
+  <h1>NeverLaw更新日志</h1>    
+  
+  <div class="log-entry">    
+    <h2>2024/2/22</h2>    
+    <p class="date">日期：2024年2月22日</p>    
+    <p class="fix"><span class="category">修复</span> 更新程序。</p>    
+    <p class="append"><span class="category">新增</span> 更新日志功能。</p>    
+    <p class="edit"><span class="category">编辑</span> 删除一键进入服务器功能，原因：会导致部分闪退，占用高，内存占用大。</p>    
+  </div>    
+    
+  <div class="log-entry">    
+    <h2>2024/2/18</h2>    
+    <p class="date">日期：2024年2月18日</p>    
+    <p class="fix"><span class="category">修复</span> 命令行判断不再区分大小写。</p>    
+    <p class="append"><span class="category">新增</span> 一键进入服务器功能（测试阶段），可能存在闪退、进入错误服务器等问题。</p>    
+    <p class="edit"><span class="category">编辑</span> [无具体描述]</p>    
+  </div>    
+    
+  <div class="log-entry">    
+    <h2>2024/2/17</h2>    
+    <p class="date">日期：2024年2月17日</p>    
+    <p class="fix"><span class="category">修复</span> VacBypass导致的高占用问题，原因解析：可能是因为两次内存注入导致占用高或内存注入导致占用高，现已改为其他注入方式。</p>    
+    <p class="fix"><span class="category">修复</span> -Server1, -Server2, -Server3链接相同的问题。</p>    
+    <p class="append"><span class="category">新增</span> VacBypass启动项 -vacsee，成功注入会显示信息框。</p>    
+    <p class="append"><span class="category">新增</span> SMpass功能。</p>    
+    <p class="append"><span class="category">新增</span> 支持打开程序应用。</p>    
+    <p class="append"><span class="category">新增</span> 自动判断CS2作弊功能。</p>    
+    <p class="edit"><span class="category">编辑</span> 默认情况下启动neverlaw不会有绕VAC成功的显示，但仍有效果。</p>    
+    <p class="command">命令：</p>    
+    <p>-skip：<span class="category">指令效果</span> 绕过加载等，直接进入界面。</p>    
+    <p>-vacsee：<span class="category">指令效果</span> 绕VAC程序注入成功后会有信息框显示。</p>    
+    <p>-SMpass：<span class="category">指令效果</span> 禁用VacBypass程序，使用此命令行可能会导致Vac封禁。</p>    
+    <p>-Server1：<span class="category">指令效果</span> 切换链接1。</p>    
+    <p>-Server2：<span class="category">指令效果</span> 切换链接2。</p>    
+    <p>-Server3：<span class="category">指令效果</span> 切换链接3。</p>    
+  </div>
