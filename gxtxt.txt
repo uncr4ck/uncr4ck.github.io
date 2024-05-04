@@ -1,0 +1,45 @@
+2024/5/4
+Append:
+→|添加链接网站延迟检测
+→|你现在可以查询系统配置了 [不会连接网络] [未来应该会删除]
+Optimize:
+→|优化启动 [启动速度得到增强]
+Closed:
+→|VacPass暂时关闭
+
+2024/5/3
+Append:
+→|添加修改图标
+→|允许查看授权人数[fake]
+ 
+Edit:
+→|在默认情况下启动neverlaw不会有绕VAC成功的显示[但任然有VacBypass效果]
+Command:
+-vacsee       指令效果:绕VAC程序注入成功后会有信息框显示
+-SMpass     指令效果:禁用VacBypass程序，使用此命令行可能会导致Vac封禁
+-Server1     指令效果:切换链接1
+-Server2     指令效果:切换链接2
+-Server3     指令效果:切换链接3
+
+
+
+
+2024/2/17
+FIX:
+→|修复VacBypass导致的高占用，原因解析：可能是因为两次内存注入导致占用高或内存注入导致占用高，现已改为其他注入方式
+→|修复-Server1 -Server2 -Server3的链接相同问题
+→|修复命令行判断会区分大小问题
+Append:
+→|给VacBypass添加新的启动项，代码：-vacsee，STEAM信息框会显示注入成功 否则不会
+→|添加SMpass
+→|已支持打开程序应用。
+→|可以自动判断是不是cs2作弊
+
+Edit:
+→|在默认情况下启动neverlaw不会有绕VAC成功的显示[但任然有VacBypass效果]
+Command:
+-vacsee       指令效果:绕VAC程序注入成功后会有信息框显示
+-SMpass     指令效果:禁用VacBypass程序，使用此命令行可能会导致Vac封禁
+-Server1     指令效果:切换链接1
+-Server2     指令效果:切换链接2
+-Server3     指令效果:切换链接3
